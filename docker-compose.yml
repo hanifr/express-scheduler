@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  node-scheduler:
+    image: aneh2killa/manongscheduler
+    volumes:
+      - sched_data:/var/lib/node-scheduler
+    restart: always
+    environment:
+      TZ: Asia/Kuala_Lumpur
+    ports:
+      - "7777:7777"
+
+volumes:
+  sched_data:

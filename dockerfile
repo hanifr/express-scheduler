@@ -15,5 +15,8 @@ RUN npm install
 # Bundle app source
 COPY . .
 
+# Actual timezone env variable set
+ENV TZ Asia/Kuala_Lumpur
+
 EXPOSE 7777
 CMD [ "node", "index.js" ]
