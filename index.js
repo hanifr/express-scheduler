@@ -10,7 +10,7 @@ var mqtt = require('mqtt')
 // var client  = mqtt.connect('mqtt://broker.hivemq.com:1883')
 // var client  = mqtt.connect('ws://www.txio.live:8083/mqtt')
 // var client  = mqtt.connect('mqtt://192.168.0.165:1883')
-var client  = mqtt.connect('mqtt://192.168.0.108:1883')
+var client  = mqtt.connect('mqtt://192.168.8.190:1883')
 
 const schedule = require('node-schedule');
 
